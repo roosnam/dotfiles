@@ -1,0 +1,70 @@
+! Solarized color scheme for the X Window System
+!
+! http://ethanschoonover.com/solarized
+
+
+! Common
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+
+! Dark
+
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+
+
+! Light
+
+! #define S_base03        #fdf6e3
+! #define S_base02        #eee8d5
+! #define S_base01        #93a1a1
+! #define S_base00        #839496
+! #define S_base0         #657b83
+! #define S_base1         #586e75
+! #define S_base2         #073642
+! #define S_base3         #002b36
+
+
+! To only apply colors to your terminal, for example, prefix
+! the color assignment statement with its name. Example:
+!
+! URxvt*background:            S_base03
+
+pantheon-terminal*background:              S_base03
+pantheon-terminal*foreground:              S_base0
+pantheon-terminal*fading:                  40
+pantheon-terminal*fadeColor:               S_base03
+pantheon-terminal*cursorColor:             S_base1
+pantheon-terminal*pointerColorBackground:  S_base01
+pantheon-terminal*pointerColorForeground:  S_base1
+
+pantheon-terminal*color0:                  S_base02
+pantheon-terminal*color1:                  S_red
+pantheon-terminal*color2:                  S_green
+pantheon-terminal*color3:                  S_yellow
+pantheon-terminal*color4:                  S_blue
+pantheon-terminal*color5:                  S_magenta
+pantheon-terminal*color6:                  S_cyan
+pantheon-terminal*color7:                  S_base2
+pantheon-terminal*color9:                  S_orange
+pantheon-terminal*color8:                  S_base03
+pantheon-terminal*color10:                 S_base01
+pantheon-terminal*color11:                 S_base00
+pantheon-terminal*color12:                 S_base0
+pantheon-terminal*color13:                 S_violet
+pantheon-terminal*color14:                 S_base1
+pantheon-terminal*color15:                 S_base3
